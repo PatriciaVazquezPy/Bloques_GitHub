@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    margin: 10px;
+    color: palevioletred;
+}
+a{
+    font-family:'Courier New', Courier, monospace;
+    color: palevioletred;
+    text-align: center;
+    text-decoration: dotted;
+    margin: 10px;
+}
+#sub{
+    text-decoration: underline;
+}
+body{
+    background-color: black;
+}
+
+#imagenes{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+}
+#imagen1, #imagen2, #imagen3{
+    background: linear-gradient(to bottom, rgb(241, 236, 240) 0%, rgb(216, 63, 183) 50%);
+    margin: 10px 100px 10px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid white;
+}
+img{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
